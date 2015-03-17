@@ -3,3 +3,4 @@
 git:
   pkg.installed:
     - name: {{ git.get('git', 'git') }}
+    - reload_modules: True
