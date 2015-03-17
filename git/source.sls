@@ -36,3 +36,4 @@ git:
       - cmd: get-git
     - require:
       - cmd: get-git
+    - reload_modules: True
